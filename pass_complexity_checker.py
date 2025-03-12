@@ -1,5 +1,4 @@
 import re
-
 def strenght_checker(password):
     if len(password) < 8 :
         return "weak password : Password must be at least 8 character."
