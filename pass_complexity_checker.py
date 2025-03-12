@@ -1,4 +1,5 @@
 import re
+
 def strenght_checker(password):
     if len(password) < 8 :
         return "weak password : Password must be at least 8 character."
@@ -16,7 +17,6 @@ def strenght_checker(password):
         return "Medium password : your password need at least one special character."
     
     return "Your password is strong and secure. "
-
 
 def pass_check():
     print("Check your password strength with this tool now!")
